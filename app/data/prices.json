@@ -1,0 +1,87 @@
+{
+ "fetched_at": "2026-11-01T20:35:10Z",
+ "source": "https://gamma-api.polymarket.com/markets",
+ "markets": {
+  "will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections": {
+   "slug": "will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections",
+   "question": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+   "prices": {
+    "Yes": 0.715,
+    "No": 0.285
+   },
+   "end_date": "2026-11-04T04:59:00Z"
+  },
+  "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections": {
+   "slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
+   "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+   "prices": {
+    "Yes": 0.945,
+    "No": 0.055
+   },
+   "end_date": "2026-11-04T04:59:00Z"
+  },
+  "will-the-republicans-win-the-iowa-senate-race-in-2026": {
+   "slug": "will-the-republicans-win-the-iowa-senate-race-in-2026",
+   "question": "Will the Republicans win the Iowa Senate race in 2026?",
+   "prices": {
+    "Yes": 0.58,
+    "No": 0.42
+   },
+   "end_date": "2026-11-04T04:59:00Z"
+  },
+  "will-the-republicans-win-the-kansas-senate-race-in-2026": {
+   "slug": "will-the-republicans-win-the-kansas-senate-race-in-2026",
+   "question": "Will the Republicans win the Kansas Senate race in 2026?",
+   "prices": {
+    "Yes": 0.485,
+    "No": 0.515
+   },
+   "end_date": "2026-11-04T04:59:00Z"
+  },
+  "will-the-democrats-win-the-ohio-senate-race-in-2026": {
+   "slug": "will-the-democrats-win-the-ohio-senate-race-in-2026",
+   "question": "Will the Democrats win the Ohio Senate race in 2026?",
+   "prices": {
+    "Yes": 0.735,
+    "No": 0.265
+   },
+   "end_date": "2026-11-04T04:59:00Z"
+  },
+  "will-the-democrats-win-the-maine-senate-race-in-2026": {
+   "slug": "will-the-democrats-win-the-maine-senate-race-in-2026",
+   "question": "Will the Democrats win the Maine Senate race in 2026?",
+   "prices": {
+    "Yes": 0.705,
+    "No": 0.295
+   },
+   "end_date": "2026-11-04T04:59:00Z"
+  },
+  "will-the-democrats-win-the-michigan-senate-race-in-2026": {
+   "slug": "will-the-democrats-win-the-michigan-senate-race-in-2026",
+   "question": "Will the Democrats win the Michigan Senate race in 2026?",
+   "prices": {
+    "Yes": 0.735,
+    "No": 0.265
+   },
+   "end_date": "2026-11-04T04:59:00Z"
+  },
+  "will-the-republicans-win-the-south-carolina-senate-race-in-2026": {
+   "slug": "will-the-republicans-win-the-south-carolina-senate-race-in-2026",
+   "question": "Will the Republicans win the South Carolina Senate race in 2026?",
+   "prices": {
+    "Yes": 0.745,
+    "No": 0.255
+   },
+   "end_date": "2026-11-04T04:59:00Z"
+  },
+  "will-the-democrats-win-the-texas-senate-race-in-2026": {
+   "slug": "will-the-democrats-win-the-texas-senate-race-in-2026",
+   "question": "Will the Democrats win the Texas Senate race in 2026?",
+   "prices": {
+    "Yes": 0.705,
+    "No": 0.295
+   },
+   "end_date": "2026-11-04T04:59:00Z"
+  }
+ }
+}
