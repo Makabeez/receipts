@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T10:40:18Z",
+ "generated_at": "2026-11-04T11:58:07Z",
  "resolutions_seen": "2026-11-04T10:26:20Z",
  "market_logged_at": "2026-11-01T20:35:10Z",
  "model": {
@@ -20,8 +20,8 @@
    "trust": 0.0,
    "beat_market": 1,
    "verdict": "not yet distinguishable",
-   "trust_blob": null,
-   "trust_version": null
+   "trust_blob": "2VlYxdvLvNJA9p2p5Dzq7i61MXlurSuUh8Zr-h4S8_o",
+   "trust_version": 1
   },
   "Decision Desk HQ": {
    "n": 8,
@@ -31,8 +31,8 @@
    "trust": 0.0,
    "beat_market": 2,
    "verdict": "not yet distinguishable",
-   "trust_blob": null,
-   "trust_version": null
+   "trust_blob": "GLP0F3UKF8KNHpMwvXHTHfpp8twIPILzCByHKXVbRlw",
+   "trust_version": 1
   },
   "VoteHub": {
    "n": 1,
@@ -42,8 +42,8 @@
    "trust": 0.0,
    "beat_market": 0,
    "verdict": "not yet distinguishable",
-   "trust_blob": null,
-   "trust_version": null
+   "trust_blob": "DQMBTulsW-yfzPuDYed2Io9BYazX1YWTHorQNuanR2g",
+   "trust_version": 1
   }
  },
  "calls": [
@@ -211,5 +211,28 @@
  "pending": [
   "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections"
  ],
- "memories": {}
+ "memories": {
+  "result:will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections": "4eAuKKCqQcSVR6WGvgTc3MPd-epFGqpxBopwbLZCI5U",
+  "result:will-the-republicans-win-the-iowa-senate-race-in-2026": "i26YxuAzbe9KkVz9PngXRNhOWoMBg5b6J8ixHzC7Qdg",
+  "result:will-the-republicans-win-the-kansas-senate-race-in-2026": "kMQXndJLfNbuA3FSsOPwBSXkAtQEGEYFTp8ArgSLxqw",
+  "result:will-the-democrats-win-the-ohio-senate-race-in-2026": "npiXTsaj_1di9a2E_pMDK8K7q0V9CAHZXFH4qJtai78",
+  "result:will-the-democrats-win-the-maine-senate-race-in-2026": "cjMi6jSUXO62gmmd6IUpMqbz3ThU1rJlQKxsBFn0D-4",
+  "result:will-the-democrats-win-the-michigan-senate-race-in-2026": "MO5yYL5pqrzdpB0S18U2q_5XFbYs5B0ixFdAr8EYmyo",
+  "result:will-the-republicans-win-the-south-carolina-senate-race-in-2026": "k9SXS5Qs3ik742gNFdwsf9E5qXE1Az1xiaKOraquU1Y",
+  "result:will-the-democrats-win-the-texas-senate-race-in-2026": "_9V5EHe15mKaOmu-GTO8tyyIAqS4EarrAu5M7uswpe4",
+  "score:silver-senate": "1ccDwg1HuSoXzQ3IRHSPWoC2VgGzlSj7iNjP9vezLdU",
+  "score:ddhq-senate": "DiHF9-eQRZNn2ZBFTNvVLDLkyI6CToA1ETJycoU8GHY",
+  "score:ddhq-ia": "WqLywbX0YvEVComdfodeeWHjKvWmb521b239Rro_83Y",
+  "score:ddhq-ks": "bVal0QgP7jecG_-1S5bcqDS3xrZzkqaRM6pSvbBDuDI",
+  "score:ddhq-oh": "sIWd5CmmI7FbOLmm-kAEb9jtWdluV4vUmFrB69kTyvo",
+  "score:ddhq-me": "uPKivdG1Ls-knBoXzq1thM3GjT44gsK7rXQf8uNKCTw",
+  "score:ddhq-mi": "5Wbv7i38jKUHp0oYINuzrTV8ooWhnxXMVxlcXZwID_o",
+  "score:ddhq-sc": "WRHLi51-AeNPToBAp9B1QHpbsVLFShjKbiv9T1MR7uA",
+  "score:ddhq-tx": "kZShi9_FbcmBQsFimwyfHlJFTdlIR7FM3-IDUEQNzqw",
+  "score:votehub-senate": "4MVV8NnCQHOsFAs7BfXUHPtQ-5HOrNscgO5WyKxGMRY",
+  "trust:Decision Desk HQ:v1": "GLP0F3UKF8KNHpMwvXHTHfpp8twIPILzCByHKXVbRlw",
+  "trust:Silver Bulletin (Nate Silver):v1": "2VlYxdvLvNJA9p2p5Dzq7i61MXlurSuUh8Zr-h4S8_o",
+  "trust:VoteHub:v1": "DQMBTulsW-yfzPuDYed2Io9BYazX1YWTHorQNuanR2g",
+  "model:2026-11-04T10:26:20Z": "_ul7Wp1xLhS304UoSG57S6yZYmvC8vbK8nrH7w3aHWc"
+ }
 }
