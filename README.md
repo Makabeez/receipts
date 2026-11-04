@@ -7,7 +7,7 @@ Receipts logs a forecast before the event, scores it against the market price af
 Built for **Total Recall** (Tatum × Walrus Memory), Track 01: Markets & Sports Prediction.
 
 - **Live app:** https://receipts-recall.vercel.app
-- **Companion built with Tatum AI Builder:** [Receipts Verifier](https://github.com/Makabeez/receipts-verifier), which checks every receipt on Sui through Tatum gRPC
+- **Companion built with Tatum AI Builder:** [Receipts Verifier](https://receipts-verifier.vercel.app) ([code](https://github.com/Makabeez/receipts-verifier)), which checks every receipt on Sui through Tatum gRPC
 - **Memory account (Walrus Memory, Mainnet):** [`0xedc0baac…7aad59`](https://suiscan.xyz/mainnet/object/0xedc0baac5f3ac60e536615d94766e1888c9ff1523d7af8e0693bfe7e937aad59)
 - **Owner wallet of every receipt blob:** [`0xf46b1a40…da9024`](https://suiscan.xyz/mainnet/account/0xf46b1a404ccdba84f5edf87cfdd1d3e582abd0f28f9edd9d996af5c418da9024)
 
