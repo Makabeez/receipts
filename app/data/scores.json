@@ -1,49 +1,49 @@
 {
- "generated_at": "2026-11-04T11:58:07Z",
- "resolutions_seen": "2026-11-04T10:26:20Z",
+ "generated_at": "2026-11-04T21:11:14Z",
+ "resolutions_seen": "2026-11-04T21:05:43Z",
  "market_logged_at": "2026-11-01T20:35:10Z",
  "model": {
   "voices": 3,
-  "calls": 10,
-  "sigma2_within": 0.008550033024553566,
-  "df": 7,
-  "tau2": -0.004184315378595234,
+  "calls": 13,
+  "sigma2_within": 0.006141634408088885,
+  "df": 10,
+  "tau2": -0.00133722388684362,
   "k": null,
   "note": "no voice is yet distinguishable from the market; trusted consensus defers to the market"
  },
  "voices": {
   "Silver Bulletin (Nate Silver)": {
-   "n": 1,
-   "mean_edge": 0.03149600000000003,
-   "lo90": -0.14372780643621877,
-   "hi90": 0.20671980643621882,
-   "trust": 0.0,
-   "beat_market": 1,
-   "verdict": "not yet distinguishable",
-   "trust_blob": "2VlYxdvLvNJA9p2p5Dzq7i61MXlurSuUh8Zr-h4S8_o",
-   "trust_version": 1
-  },
-  "Decision Desk HQ": {
-   "n": 8,
-   "mean_edge": -0.03904062500000001,
-   "lo90": -0.10099159587818467,
-   "hi90": 0.02291034587818465,
+   "n": 2,
+   "mean_edge": 0.016060000000000015,
+   "lo90": -0.08435189791053693,
+   "hi90": 0.11647189791053697,
    "trust": 0.0,
    "beat_market": 2,
    "verdict": "not yet distinguishable",
-   "trust_blob": "GLP0F3UKF8KNHpMwvXHTHfpp8twIPILzCByHKXVbRlw",
-   "trust_version": 1
+   "trust_blob": "AEbyHr-aX8hOkcguMgEamAPK3-PE0WKYA3oaYNfs2PA",
+   "trust_version": 2
+  },
+  "Decision Desk HQ": {
+   "n": 9,
+   "mean_edge": -0.038811111111111116,
+   "lo90": -0.0861457337273458,
+   "hi90": 0.008523511505123559,
+   "trust": 0.0,
+   "beat_market": 2,
+   "verdict": "not yet distinguishable",
+   "trust_blob": "yLDvb6lKvJxEQN_pMl9Ka9R1bRHjCDSP3E1VrRa6HUw",
+   "trust_version": 2
   },
   "VoteHub": {
-   "n": 1,
-   "mean_edge": -0.055674999999999975,
-   "lo90": -0.23089880643621877,
-   "hi90": 0.11954880643621882,
+   "n": 2,
+   "mean_edge": -0.03237499999999999,
+   "lo90": -0.13278689791053694,
+   "hi90": 0.06803689791053696,
    "trust": 0.0,
    "beat_market": 0,
    "verdict": "not yet distinguishable",
-   "trust_blob": "DQMBTulsW-yfzPuDYed2Io9BYazX1YWTHorQNuanR2g",
-   "trust_version": 1
+   "trust_blob": "4bu40jO5A0CvTeyl1FvSFhuZFVk_hbiRSuZ2usGFdEw",
+   "trust_version": 2
   }
  },
  "calls": [
@@ -64,6 +64,22 @@
    "said_at": "2026-10-29"
   },
   {
+   "call_id": "silver-house",
+   "voice": "Silver Bulletin (Nate Silver)",
+   "slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
+   "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+   "pick": "Yes",
+   "p": 0.951,
+   "market": 0.945,
+   "won": 1,
+   "brier_voice": 0.0024010000000000043,
+   "brier_market": 0.0030250000000000055,
+   "edge": 0.0006240000000000013,
+   "receipt_blob": "ykSAZvtLpNILYpK6B2hTktKJ86ucxual9SpTtXV7haU",
+   "sui_tx": "6UVR2XBu1ekFxJ9isXuYspmAdh4FxRa2Qoc7piBVsCWS",
+   "said_at": "2026-10-29"
+  },
+  {
    "call_id": "ddhq-senate",
    "voice": "Decision Desk HQ",
    "slug": "will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections",
@@ -77,6 +93,22 @@
    "edge": -0.07877500000000001,
    "receipt_blob": "qmEXm0q1eZrrnmR5-sOLjuC7YGpQC-xCBJbxZJwYJX0",
    "sui_tx": "4NLvCM6MPvk29bqJq6rhXwt2HRLPmLPc8GdmFRkn1Apf",
+   "said_at": "2026-10-29"
+  },
+  {
+   "call_id": "ddhq-house",
+   "voice": "Decision Desk HQ",
+   "slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
+   "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+   "pick": "Yes",
+   "p": 0.8,
+   "market": 0.945,
+   "won": 1,
+   "brier_voice": 0.03999999999999998,
+   "brier_market": 0.0030250000000000055,
+   "edge": -0.03697499999999997,
+   "receipt_blob": "jZTgzFqHKfoR8y0YOZaXQefPgNzcWNO83AyvraUZ_1U",
+   "sui_tx": "G9xicCgKMrfFNFqhS4n2dq6swz41CSTLcba1mqyXXVx5",
    "said_at": "2026-10-29"
   },
   {
@@ -206,11 +238,25 @@
    "receipt_blob": "MKYmF_MA8HkMeEcUBXnEatU443U6jJiFAkdXRIlaRhg",
    "sui_tx": "CeitJpZXYP3BvhjvFRov8h9p3bfMEAwAvyo3rD6fEdL5",
    "said_at": "2026-10-30"
+  },
+  {
+   "call_id": "votehub-house",
+   "voice": "VoteHub",
+   "slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
+   "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+   "pick": "Yes",
+   "p": 0.89,
+   "market": 0.945,
+   "won": 1,
+   "brier_voice": 0.012099999999999998,
+   "brier_market": 0.0030250000000000055,
+   "edge": -0.009074999999999993,
+   "receipt_blob": "ddVY_kxjhpBtrHw39G6JoqTLb9xl9utvTw-5-eCqfcw",
+   "sui_tx": "AhxBDjEJus6RKbb2TWqtPFM4k5a9pWnRVcTU3UzyajbV",
+   "said_at": "2026-10-30"
   }
  ],
- "pending": [
-  "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections"
- ],
+ "pending": [],
  "memories": {
   "result:will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections": "4eAuKKCqQcSVR6WGvgTc3MPd-epFGqpxBopwbLZCI5U",
   "result:will-the-republicans-win-the-iowa-senate-race-in-2026": "i26YxuAzbe9KkVz9PngXRNhOWoMBg5b6J8ixHzC7Qdg",
@@ -233,6 +279,14 @@
   "trust:Decision Desk HQ:v1": "GLP0F3UKF8KNHpMwvXHTHfpp8twIPILzCByHKXVbRlw",
   "trust:Silver Bulletin (Nate Silver):v1": "2VlYxdvLvNJA9p2p5Dzq7i61MXlurSuUh8Zr-h4S8_o",
   "trust:VoteHub:v1": "DQMBTulsW-yfzPuDYed2Io9BYazX1YWTHorQNuanR2g",
-  "model:2026-11-04T10:26:20Z": "_ul7Wp1xLhS304UoSG57S6yZYmvC8vbK8nrH7w3aHWc"
+  "model:2026-11-04T10:26:20Z": "_ul7Wp1xLhS304UoSG57S6yZYmvC8vbK8nrH7w3aHWc",
+  "result:will-the-democratic-party-control-the-house-after-the-2026-midterm-elections": "Oq61U_ZWnYArBMfo8eBW5zuDvIL2Mb9qWx7srJjFQ58",
+  "score:silver-house": "R6iT0AvCIOZMVFnThqZchp357AnuGMFO_iMfjoJfwa4",
+  "score:ddhq-house": "Nvj2UPoRUyP0DsAx440aIc39ix89_MIarmoXZ5KyU2o",
+  "score:votehub-house": "rOVGl5EUwNApDrh7CKY7DbVDBBJWd5OlkrzPpe-qAsA",
+  "trust:Decision Desk HQ:v2": "yLDvb6lKvJxEQN_pMl9Ka9R1bRHjCDSP3E1VrRa6HUw",
+  "trust:Silver Bulletin (Nate Silver):v2": "AEbyHr-aX8hOkcguMgEamAPK3-PE0WKYA3oaYNfs2PA",
+  "trust:VoteHub:v2": "4bu40jO5A0CvTeyl1FvSFhuZFVk_hbiRSuZ2usGFdEw",
+  "model:2026-11-04T21:05:43Z": "PlzZUzSw2j4uyv8IFWalse9sP6XGI0Qx00MJGzLO7w0"
  }
 }

@@ -1,23 +1,23 @@
 {
- "fetched_at": "2026-11-04T10:26:20Z",
+ "fetched_at": "2026-11-04T21:05:43Z",
  "source": "https://gamma-api.polymarket.com/markets",
  "markets": {
   "will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections": {
    "question": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
    "uma": "resolved",
-   "closed": false,
+   "closed": true,
    "prices": {
-    "Yes": 0.9995,
-    "No": 0.0005
+    "Yes": 1.0,
+    "No": 0.0
    }
   },
   "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections": {
    "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-   "uma": "proposed",
-   "closed": false,
+   "uma": "resolved",
+   "closed": true,
    "prices": {
-    "Yes": 0.9995,
-    "No": 0.0005
+    "Yes": 1.0,
+    "No": 0.0
    }
   },
   "will-the-republicans-win-the-iowa-senate-race-in-2026": {
@@ -59,10 +59,10 @@
   "will-the-democrats-win-the-michigan-senate-race-in-2026": {
    "question": "Will the Democrats win the Michigan Senate race in 2026?",
    "uma": "resolved",
-   "closed": false,
+   "closed": true,
    "prices": {
-    "Yes": 0.9995,
-    "No": 0.0005
+    "Yes": 1.0,
+    "No": 0.0
    }
   },
   "will-the-republicans-win-the-south-carolina-senate-race-in-2026": {

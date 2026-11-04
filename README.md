@@ -37,15 +37,15 @@ The app ranks voices from that memory and lets anyone search it (`/api/recall` �
 
 ## What the data says, honestly
 
-After election night, 10 calls had final results:
+All 9 markets have now resolved, and 13 calls have final results:
 
 | Voice | Scored calls | Mean edge vs market | Verdict |
 |---|---|---|---|
-| Silver Bulletin | 1 | +3.1 | not yet distinguishable |
-| Decision Desk HQ | 8 | −3.9 | not yet distinguishable |
-| VoteHub | 1 | −5.6 | not yet distinguishable |
+| Silver Bulletin | 2 | +1.6 | not yet distinguishable |
+| VoteHub | 2 | −3.2 | not yet distinguishable |
+| Decision Desk HQ | 9 | −3.9 | not yet distinguishable |
 
-The shrinkage constant k is **measured, not chosen**: k = σ²(within voice) / τ²(between voices), estimated from the scored calls. Right now τ² ≤ 0, because the spread between voices is smaller than the noise, so k is infinite. **Receipts therefore weights every voice like the market until one of them clears it.** It says so instead of inventing a ranking. One bias to know: the forecasts were published Oct 29–30, but the market price was read on Nov 1 when Receipts logged them, so the market had up to 3 more days of news. That tilts every score against the voices. Intervals are Student-t on the pooled within-voice variance. The House market was still awaiting final UMA resolution at scoring time. Re-running `score.py` adds it and writes a v2 trust profile for each voice that supersedes v1.
+The shrinkage constant k is **measured, not chosen**: k = σ²(within voice) / τ²(between voices), estimated from the scored calls. Right now τ² ≤ 0, because the spread between voices is smaller than the noise, so k is infinite. **Receipts therefore weights every voice like the market until one of them clears it.** It says so instead of inventing a ranking. One bias to know: the forecasts were published Oct 29–30, but the market price was read on Nov 1 when Receipts logged them, so the market had up to 3 more days of news. That tilts every score against the voices. Intervals are Student-t on the pooled within-voice variance. The House market resolved on Nov 4, after the first scoring run. The second run added it and wrote a v2 trust profile for each voice that supersedes v1: the append-only chain working as designed.
 
 ## Real or simulated
 
@@ -56,7 +56,7 @@ The shrinkage constant k is **measured, not chosen**: k = σ²(within voice) / �
 | Walrus Memory writes | Real, Mainnet, managed relayer |
 | Sui certification | Real, Mainnet, 22 transactions |
 | Results | Real Polymarket UMA resolutions ([`resolutions.json`](evidence/midterms-2026/resolutions.json)) |
-| Trust ranking | Real computation, statistically inconclusive at n=10, stated as such |
+| Trust ranking | Real computation, statistically inconclusive at n=13, stated as such |
 
 ## Reproduce it
 

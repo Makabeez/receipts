@@ -21,26 +21,34 @@
   "trust:Decision Desk HQ:v1": "GLP0F3UKF8KNHpMwvXHTHfpp8twIPILzCByHKXVbRlw",
   "trust:Silver Bulletin (Nate Silver):v1": "2VlYxdvLvNJA9p2p5Dzq7i61MXlurSuUh8Zr-h4S8_o",
   "trust:VoteHub:v1": "DQMBTulsW-yfzPuDYed2Io9BYazX1YWTHorQNuanR2g",
-  "model:2026-11-04T10:26:20Z": "_ul7Wp1xLhS304UoSG57S6yZYmvC8vbK8nrH7w3aHWc"
+  "model:2026-11-04T10:26:20Z": "_ul7Wp1xLhS304UoSG57S6yZYmvC8vbK8nrH7w3aHWc",
+  "result:will-the-democratic-party-control-the-house-after-the-2026-midterm-elections": "Oq61U_ZWnYArBMfo8eBW5zuDvIL2Mb9qWx7srJjFQ58",
+  "score:silver-house": "R6iT0AvCIOZMVFnThqZchp357AnuGMFO_iMfjoJfwa4",
+  "score:ddhq-house": "Nvj2UPoRUyP0DsAx440aIc39ix89_MIarmoXZ5KyU2o",
+  "score:votehub-house": "rOVGl5EUwNApDrh7CKY7DbVDBBJWd5OlkrzPpe-qAsA",
+  "trust:Decision Desk HQ:v2": "yLDvb6lKvJxEQN_pMl9Ka9R1bRHjCDSP3E1VrRa6HUw",
+  "trust:Silver Bulletin (Nate Silver):v2": "AEbyHr-aX8hOkcguMgEamAPK3-PE0WKYA3oaYNfs2PA",
+  "trust:VoteHub:v2": "4bu40jO5A0CvTeyl1FvSFhuZFVk_hbiRSuZ2usGFdEw",
+  "model:2026-11-04T21:05:43Z": "PlzZUzSw2j4uyv8IFWalse9sP6XGI0Qx00MJGzLO7w0"
  },
  "trust_heads": {
   "Decision Desk HQ": {
-   "version": 1,
-   "n": 8,
-   "hash": "7d92f189adfc4d3c",
-   "blob_id": "GLP0F3UKF8KNHpMwvXHTHfpp8twIPILzCByHKXVbRlw"
+   "version": 2,
+   "n": 9,
+   "hash": "8bdd666f137f39af",
+   "blob_id": "yLDvb6lKvJxEQN_pMl9Ka9R1bRHjCDSP3E1VrRa6HUw"
   },
   "Silver Bulletin (Nate Silver)": {
-   "version": 1,
-   "n": 1,
-   "hash": "83861e2039f2fef2",
-   "blob_id": "2VlYxdvLvNJA9p2p5Dzq7i61MXlurSuUh8Zr-h4S8_o"
+   "version": 2,
+   "n": 2,
+   "hash": "58b5da645a5c510d",
+   "blob_id": "AEbyHr-aX8hOkcguMgEamAPK3-PE0WKYA3oaYNfs2PA"
   },
   "VoteHub": {
-   "version": 1,
-   "n": 1,
-   "hash": "e84ba70a9dafee4d",
-   "blob_id": "DQMBTulsW-yfzPuDYed2Io9BYazX1YWTHorQNuanR2g"
+   "version": 2,
+   "n": 2,
+   "hash": "4e150ed8cfefeedc",
+   "blob_id": "4bu40jO5A0CvTeyl1FvSFhuZFVk_hbiRSuZ2usGFdEw"
   }
  }
 }
