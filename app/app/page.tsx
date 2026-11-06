@@ -19,7 +19,8 @@ export default function Home() {
 
   return (
     <main>
-      <section className="hero">
+      <header className="band band-felt">
+      <section className="hero wrap">
         <div className="hero-copy">
           <p className="wordmark">Receipts</p>
           <h1>Every pundit says they called it. These are the receipts.</h1>
@@ -29,8 +30,8 @@ export default function Home() {
             and Receipts remembers who beat the market.
           </p>
           <p className="hero-links">
-            <a href="#voices">See who to trust</a>
-            <a href="#races">Open the receipts</a>
+            <a className="btn btn-tote" href="#voices">See who to trust</a>
+            <a className="btn btn-ghost" href="#races">Open the receipts</a>
           </p>
         </div>
         <div className="hero-stack" aria-hidden="true">
@@ -45,7 +46,9 @@ export default function Home() {
           ))}
         </div>
       </section>
+      </header>
 
+      <div className="wrap">
       <section id="voices" className="section">
         <h2>Who to listen to</h2>
         <p className="section-lede">
@@ -54,7 +57,10 @@ export default function Home() {
         <Leaderboard voices={allVoices} scoredCalls={scoredCalls} resolved={resolved} afterLabel={s.resolutionsSeen ? utc(s.resolutionsSeen).split(",")[0] : "Now"} />
       </section>
 
-      <section id="races" className="section">
+      </div>
+
+      <div className="band band-felt">
+      <section id="races" className="section wrap">
         <h2>The receipts</h2>
         <p className="section-lede">
           One slip per race. Open a line to see where the call was published, the Walrus blob that remembers it, and the Sui transaction that certified it before the vote.
@@ -62,7 +68,9 @@ export default function Home() {
         </p>
         <RaceSlips races={allRaces} />
       </section>
+      </div>
 
+      <div className="wrap">
       <section id="ask" className="section">
         <h2>Ask the memory</h2>
         <p className="section-lede">
@@ -104,6 +112,7 @@ export default function Home() {
           Code, evidence and every blob ID: <a href={REPO} target="_blank" rel="noreferrer">github.com/Makabeez/receipts</a>.
         </p>
       </footer>
+      </div>
     </main>
   );
 }

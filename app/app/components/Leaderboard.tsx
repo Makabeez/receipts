@@ -45,7 +45,7 @@ export default function Leaderboard({ voices, scoredCalls, resolved, afterLabel 
                 {after ? `${v.n} scored call${v.n === 1 ? "" : "s"}, beat the market ${v.beat}/${v.n}` : "no scored calls yet"}
               </text>
               <line x1={after ? x(lo) : x(0)} x2={after ? x(hi) : x(0)} y1={cy} y2={cy} className="whisker" />
-              <circle cx={after ? x(v.meanEdge) : x(0)} cy={cy} r={7} className={after ? "dot" : "dot empty"} />
+              <circle cx={after ? x(v.meanEdge) : x(0)} cy={cy} r={8} className={after ? `dot ${v.meanEdge > 1e-9 ? "pos" : v.meanEdge < -1e-9 ? "neg" : ""}` : "dot empty"} />
               {after && (
                 <text x={x(v.meanEdge)} y={cy - 13} textAnchor="middle" className="dotlabel">{pct(v.meanEdge)}</text>
               )}

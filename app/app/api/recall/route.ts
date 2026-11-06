@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { MemWal } from "@mysten-incubation/memwal";
 import { ACCOUNT_ID } from "../../../lib/data";
+import { answer, readable } from "../../../lib/answer";
 
 // Search what Receipts remembers, straight from Walrus Memory on Mainnet.
 // MEMWAL_KEY is a delegate key held in server env only, never sent to the browser. Delegate keys can also write:
@@ -31,10 +32,10 @@ export async function GET(req: Request) {
     const results = await Promise.all(NAMESPACES.map(async (namespace) => {
       const memwal = MemWal.create({ key, accountId, serverUrl: process.env.MEMWAL_SERVER_URL ?? "https://relayer.memory.walrus.xyz", namespace });
       const r = await memwal.recall({ query: q, limit: 5, namespace });
-      return r.results.map((m) => ({ namespace, blobId: m.blob_id, text: m.text, distance: m.distance }));
+      return r.results.map((m) => ({ namespace, blobId: m.blob_id, text: m.text, distance: m.distance, ...readable(m.text) }));
     }));
     const merged = results.flat().sort((a, b) => a.distance - b.distance).slice(0, 6);
-    return NextResponse.json({ query: q, from: "Walrus Memory (Mainnet)", results: merged });
+    return NextResponse.json({ query: q, from: "Walrus Memory (Mainnet)", answer: answer(q), results: merged });
   } catch (e) {
     const msg = e instanceof Error ? e.message : String(e);
     return NextResponse.json({ error: `Walrus Memory didn't answer: ${msg.slice(0, 160)}` }, { status: 502 });
