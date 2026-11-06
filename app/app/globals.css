@@ -37,6 +37,7 @@ main { padding: 0 0 64px; }
     radial-gradient(ellipse at 30% 0%, rgba(255, 255, 255, .06), transparent 60%),
     var(--felt);
   color: var(--paper);
+  overflow-x: clip; /* landing stamps start at 2.4x and must not widen the page */
 }
 .band-felt .section { border-top: 0; padding: 72px 28px 88px; }
 .band-felt .section-lede { color: #cfe3d9; }
@@ -69,7 +70,7 @@ h1 {
           mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 50% / 14px 100%;
 }
 .mini-0 { left: 0; top: 0; transform: rotate(-4deg); }
-.mini-1 { left: 250px; top: 70px; transform: rotate(3deg); }
+.mini-1 { right: 0; top: 70px; transform: rotate(3deg); }
 .mini-2 { left: 40px; top: 300px; transform: rotate(-1.5deg); }
 .mini-q { font-weight: 600; margin: 0 0 12px; }
 .mini-line { display: flex; justify-content: space-between; gap: 12px; margin: 0; border-bottom: 1px dashed var(--rule); padding: 4px 0; }
